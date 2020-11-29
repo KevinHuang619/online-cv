@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Huang Xiufeng
@@ -15,7 +15,7 @@ sidebar:
     email: apple163995@gmail.com
     phone: +852 64390595
     website: kevinhuang619.github.io #do not add http://
-    linkedin: Kevin Huang
+    linkedin: kevin-huang-003450191
     github: KevinHuang619
     telegram: # add your nickname without '@' sign
     gitlab:
