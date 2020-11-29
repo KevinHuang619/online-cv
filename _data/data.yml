@@ -55,16 +55,14 @@ education:
       university: City University of Hong Kong
       time: 2018 - 2019
       details: |
-        Describe:
-          - Image Processing, Computer Graphics,
-          - Machine Learning, Software Engineering
+        Courses:
+          - Image Processing, Computer Graphics, Machine Learning, Software Engineering
     - degree: BSc in Intergrated Circuits Design and Intergrated Systemn
       university: Shenzhen University
       time: 2011 - 2015
       details: |
-        Describe:
-          - Dota2
-          - Hardware
+        Courses:
+          - Digital Images Processing, Digital Signal Processing, Embedded System Design
 experiences:
     - role: AI Developer
       time: 2019.10 - Present
@@ -94,15 +92,20 @@ projects:
 
         
 publications:
-    title: Publications
+    title: Dissertation
     intro: |
-      My publications.
+      Master Dissertation Project
     papers:
-      - title: The Art of Computer Programming
+      - title: Video-based health monitoring system for elderly
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
+        tagline: |
+            HEART RATE DETECTION
+            - MTCNN Face detection and continuously update ROI regions with optical flow tracking.
+            - Filter the raw cardiac signal from image pixels and estimate the heartrate with discrete cosine transformation.
+            FALL DETECTION
+            - Train image classifier with pre-trained VGG-16 model to make spatial prediction.
+            - Train LSTM model of dense optical flow images stack to make temporal prediction.
+            - Combine two stream prediction sigmoid score with linear-SVM fusion to make final prediction.
 skills:
     title: Skills &amp; Proficiency
 
