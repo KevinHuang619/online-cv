@@ -49,6 +49,7 @@ career-profile:
     title: Career Profile
     summary: |
       I'm focusing on Deep Learning with Computer Vision and Computer Graphic.
+      Including datasets build-up, data pre-processing, neural network research and development, training model design, onnx-runtime for model inference.
 education:
     - degree: MSc in Electornic Information Engineering
       university: City University of Hong Kong
@@ -66,19 +67,22 @@ education:
           - Hardware
 experiences:
     - role: AI Developer
-      time: 2019 - Present
-      company: PantheonLab, Hong Kong
+      time: 2019.10 - Present
+      company: PANTHEON LAB, HONG KONG
       details: |
         Describe:
-          - GAN
-          - Deep Learning
+          -	Train Conditional GAN network to synthesize faces with different facial attributes.
+          -	Redesign a Style-GAN model architecture to achieve amazing face-editing function.
+          -	Design a One-Shot learning video Face-swapping pipeline based on auto-encoder model architecture.
+          -	Develop an end-to-end Background matting training pipeline in pytorch-lightning.
     - role: Android System Developer
-      time: 2015 - 2017
-      company: KTC, Shenzhen
+      time: 2015.07 - 2017.11
+      company: SHENZHEN KTC TECHNOLOGY CO., LTD.
       details: |
         Describe:
-          - Linux
-          - Android
+          - MStar 6A828/6A838 series Android development, including Android TV apps, Android Launcher app, Whiteboard app, Writing Annotation app, etc.
+          - Linux embedded system development, based on MStar Supernova API, including C/C++ programming on MStar TV hardware resources module for JNI API calling and SQLite dataset.
+          -	Writing Annotation app turbo module development, JNI and C++ programming for calling Linux framebuffer resources to shorten UI response time by 60%-70%, comparing with using Android surface view method.
 projects:
     title: Projects
     intro: >
@@ -120,6 +124,3 @@ skills:
 
       - name: Javascript
         level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
