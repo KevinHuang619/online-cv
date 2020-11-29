@@ -87,7 +87,7 @@ projects:
       These are side projects for research purpose.
     assignments:
       - title: Deep Fakes Lightning
-        link: "#hook"
+        link: "https://github.com/KevinHuang619/deepfakes_lightning"
         tagline: "A open source deep-fakes project, for study purpose of deep learning, based on pytorch lightning."
 
         
