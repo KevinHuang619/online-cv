@@ -49,7 +49,9 @@ career-profile:
     title: Career Profile
     summary: |
       I'm focusing on Deep Learning with Computer Vision and Computer Graphic.
+      
       You can find my recent deep learning side-project at the Project Section.
+      
 education:
     - degree: MSc in Electornic Information Engineering
       university: City University of Hong Kong
@@ -68,7 +70,6 @@ experiences:
       time: 2019.10 - Present
       company: PANTHEON LAB, HONG KONG
       details: |
-        Describe:
           -	Train Conditional GAN network to synthesize faces with different facial attributes.
           -	Redesign a Style-GAN model architecture to achieve amazing face-editing function.
           -	Design a One-Shot learning video Face-swapping pipeline based on auto-encoder model architecture.
@@ -77,14 +78,13 @@ experiences:
       time: 2015.07 - 2017.11
       company: SHENZHEN KTC TECHNOLOGY CO., LTD.
       details: |
-        Describe:
           - MStar 6A828/6A838 series Android development, including Android TV apps, Android Launcher app, Whiteboard app, Writing Annotation app, etc.
           - Linux embedded system development, based on MStar Supernova API, including C/C++ programming on MStar TV hardware resources module for JNI API calling and SQLite dataset.
           -	Writing Annotation app turbo module development, JNI and C++ programming for calling Linux framebuffer resources to shorten UI response time by 60%-70%, comparing with using Android surface view method.
 projects:
     title: Projects
     intro: >
-      These are side projects for research purpose.
+      Side projects for research purpose.
     assignments:
       - title: Deep Fakes Lightning
         link: "https://github.com/KevinHuang619/deepfakes_lightning"
@@ -98,7 +98,8 @@ publications:
     papers:
       - title: Video-based health monitoring system for elderly
         link: "#"
-        tagline: |
+        tagline:
+        details: |
             HEART RATE DETECTION
             - MTCNN Face detection and continuously update ROI regions with optical flow tracking.
             - Filter the raw cardiac signal from image pixels and estimate the heartrate with discrete cosine transformation.
