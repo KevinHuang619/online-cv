@@ -46,11 +46,10 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
-    link: "https://drive.google.com/file/d/1TDncQOr0prhROxlHI1FXbwPXpF4ksNKL/view?usp=sharing"
+    title: About
     summary: |
       I'm focusing on Deep Learning with Computer Vision and Computer Graphic. 
-      - link: https://drive.google.com/file/d/1TDncQOr0prhROxlHI1FXbwPXpF4ksNKL/view?usp=sharing
+      
       You can find my recent deep learning side-project at the Project Section.
 education:
     - degree: MSc in Electornic Information Engineering
