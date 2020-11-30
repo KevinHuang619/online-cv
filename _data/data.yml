@@ -51,7 +51,6 @@ career-profile:
       I'm focusing on Deep Learning with Computer Vision and Computer Graphic.
       
       You can find my recent deep learning side-project at the Project Section.
-      
 education:
     - degree: MSc in Electornic Information Engineering
       university: City University of Hong Kong
@@ -71,7 +70,7 @@ experiences:
       company: PANTHEON LAB, HONG KONG
       details: |
           -	Train Conditional GAN network to synthesize faces with different facial attributes.
-          -	Redesign a Style-GAN model architecture to achieve amazing face-editing function.
+          -	Redesign a style based GAN architecture to achieve amazing face-editing function.
           -	Design a One-Shot learning video Face-swapping pipeline based on auto-encoder model architecture.
           -	Develop an end-to-end Background matting training pipeline in pytorch-lightning.
     - role: Android System Developer
@@ -83,8 +82,6 @@ experiences:
           -	Writing Annotation app turbo module development, JNI and C++ programming for calling Linux framebuffer resources to shorten UI response time by 60%-70%, comparing with using Android surface view method.
 projects:
     title: Projects
-    intro: >
-      Side projects for research purpose.
     assignments:
       - title: Deep Fakes Lightning
         link: "https://github.com/KevinHuang619/deepfakes_lightning"
