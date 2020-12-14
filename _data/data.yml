@@ -94,9 +94,8 @@ publications:
       Master Dissertation Project
     papers:
       - title: Video-based health monitoring system for elderly
-        link: "#"
-        tagline:
-        details: |
+        link: "https://drive.google.com/file/d/1mWuV_m4zUatlQUYcWn0RRyrUA_4pM2Zk/view?usp=sharing"
+        tagline: |
             HEART RATE DETECTION
             - MTCNN Face detection and continuously update ROI regions with optical flow tracking.
             - Filter the raw cardiac signal from image pixels and estimate the heartrate with discrete cosine transformation.
@@ -104,6 +103,7 @@ publications:
             - Train image classifier with pre-trained VGG-16 model to make spatial prediction.
             - Train LSTM model of dense optical flow images stack to make temporal prediction.
             - Combine two stream prediction sigmoid score with linear-SVM fusion to make final prediction.
+        details:
 skills:
     title: Skills &amp; Proficiency
 
